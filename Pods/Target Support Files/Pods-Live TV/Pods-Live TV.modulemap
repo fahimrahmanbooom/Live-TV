@@ -1,0 +1,6 @@
+framework module Pods_Live_TV {
+  umbrella header "Pods-Live TV-umbrella.h"
+
+  export *
+  module * { export * }
+}
