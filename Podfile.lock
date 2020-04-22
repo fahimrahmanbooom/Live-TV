@@ -23,6 +23,7 @@ PODS:
   - "GoogleUtilities/NSData+zlib (6.5.2)"
   - GoogleUtilities/Reachability (6.5.2):
     - GoogleUtilities/Logger
+  - JGProgressHUD (2.1)
   - nanopb (0.3.9011):
     - nanopb/decode (= 0.3.9011)
     - nanopb/encode (= 0.3.9011)
@@ -31,20 +32,23 @@ PODS:
 
 DEPENDENCIES:
   - Google-Mobile-Ads-SDK
+  - JGProgressHUD
 
 SPEC REPOS:
   trunk:
     - Google-Mobile-Ads-SDK
     - GoogleAppMeasurement
     - GoogleUtilities
+    - JGProgressHUD
     - nanopb
 
 SPEC CHECKSUMS:
   Google-Mobile-Ads-SDK: 7052557293c75c676db55feb707ace9b790f32c1
   GoogleAppMeasurement: e49be3954045b17d046f271b9cc1ec052bad9702
   GoogleUtilities: ad0f3b691c67909d03a3327cc205222ab8f42e0e
+  JGProgressHUD: aa403e9a5b45cae98903c4600cccdd98c0c3ec90
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
 
-PODFILE CHECKSUM: 9f5e9ac18512662ab5a4acc0a6a3bae5f4696b07
+PODFILE CHECKSUM: 95149ac4f36418bbbb93234668ac71069f0aea35
 
 COCOAPODS: 1.9.1

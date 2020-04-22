@@ -8,6 +8,7 @@
 
 import UIKit
 import GoogleMobileAds
+import JGProgressHUD
 
 class ViewController: UIViewController {
     
@@ -20,13 +21,26 @@ class ViewController: UIViewController {
     
     var interstitial: GADInterstitial!
     
+    let hud = JGProgressHUD(style: .dark)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+        hud.textLabel.text = "Loading"
+        hud.show(in: self.view)
+        hud.position = .center
         
-        designUI()
+        mainViewBannerTop.delegate = self
+        mainViewBannerBottom.delegate = self
+        
         prepareBannerAd()
         prepareInterstitialAd()
+        designUI()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         
+        presentBannerAd()
     }
     
     
@@ -64,15 +78,23 @@ extension ViewController {
         // top banner
         mainViewBannerTop.adUnitID = "ca-app-pub-3940256099942544/2934735716"
         mainViewBannerTop.rootViewController = self
-        mainViewBannerTop.adSize = kGADAdSizeSmartBannerPortrait
-        mainViewBannerTop.load(GADRequest())
+        
         
         // bottom banner
         mainViewBannerBottom.adUnitID = "ca-app-pub-3940256099942544/2934735716"
         mainViewBannerBottom.rootViewController = self
-        mainViewBannerBottom.adSize = kGADAdSizeSmartBannerPortrait
-        mainViewBannerBottom.load(GADRequest())
         
+    }
+    
+    func presentBannerAd() {
+        
+        // top banner
+        mainViewBannerTop.adSize = GADPortraitAnchoredAdaptiveBannerAdSizeWithWidth(self.view.frame.width)
+        mainViewBannerTop.load(GADRequest())
+        
+        // bottom banner
+        mainViewBannerTop.adSize = GADPortraitAnchoredAdaptiveBannerAdSizeWithWidth(self.view.frame.width)
+        mainViewBannerBottom.load(GADRequest())
     }
     
     // prepare interstitial function
@@ -101,6 +123,25 @@ extension ViewController {
             
         }
     }
+}
+
+
+
+// Gad extention for delegate methods
+
+extension ViewController: GADBannerViewDelegate {
+    
+    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
+        hud.dismiss()
+    }
+    
+}
+
+
+// design extension
+
+extension ViewController {
+    
     
     // navigation
     
@@ -110,15 +151,12 @@ extension ViewController {
         self.navigationController?.pushViewController(vc, animated: true)
         
         navigationItem.backBarButtonItem = UIBarButtonItem(
-        title: "Countries", style: .plain, target: nil, action: nil)
+            title: "Menu", style: .plain, target: nil, action: nil)
+        navigationItem.backBarButtonItem?.tintColor = .black
     }
+
     
-}
-
-
-// design extension
-
-extension ViewController {
+    // UI design
     
     func designUI() {
         

@@ -8,5 +8,6 @@ target 'Live TV' do
   # Pods for Live TV
   
   pod 'Google-Mobile-Ads-SDK'
+  pod 'JGProgressHUD'
 
 end

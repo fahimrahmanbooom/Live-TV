@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		9D401C83855FDBE80C686E76 /* Pods_Live_TV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C53A65FFF227D5941A0519 /* Pods_Live_TV.framework */; };
+		FF2D7045245048DB0010965A /* bangladesh.json in Resources */ = {isa = PBXBuildFile; fileRef = FF2D7044245048DB0010965A /* bangladesh.json */; };
+		FF2D7047245049250010965A /* EntertainmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2D7046245049250010965A /* EntertainmentViewController.swift */; };
+		FF70798B2450F8B20091A428 /* CartoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70798A2450F8B20091A428 /* CartoonViewController.swift */; };
+		FF70798D2450F8E40091A428 /* CartoonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70798C2450F8E40091A428 /* CartoonTableViewCell.swift */; };
+		FF75A10C24505A0A00C1E90F /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF75A10B24505A0A00C1E90F /* Base.swift */; };
+		FF75A10E24505E1C00C1E90F /* Entertainment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF75A10D24505E1C00C1E90F /* Entertainment.swift */; };
+		FF75A11024505E4700C1E90F /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF75A10F24505E4700C1E90F /* News.swift */; };
+		FF75A11224505E9C00C1E90F /* Sports.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF75A11124505E9C00C1E90F /* Sports.swift */; };
+		FF75A11424505EB900C1E90F /* Cartoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF75A11324505EB900C1E90F /* Cartoon.swift */; };
+		FF75A1162450ABDB00C1E90F /* EnterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF75A1152450ABDB00C1E90F /* EnterTableViewCell.swift */; };
+		FF75A1182450CC9300C1E90F /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF75A1172450CC9300C1E90F /* NewsViewController.swift */; };
+		FF75A11A2450CCC800C1E90F /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF75A1192450CCC800C1E90F /* NewsTableViewCell.swift */; };
+		FF75A11C2450D3EC00C1E90F /* SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF75A11B2450D3EC00C1E90F /* SportsViewController.swift */; };
+		FF75A11E2450D40B00C1E90F /* SportsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF75A11D2450D40B00C1E90F /* SportsTableViewCell.swift */; };
 		FF7A4C24244E188500187EC9 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A4C23244E188500187EC9 /* Utility.swift */; };
 		FFB1027B244D9808008AC7D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB1027A244D9808008AC7D7 /* AppDelegate.swift */; };
 		FFB1027D244D9808008AC7D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB1027C244D9808008AC7D7 /* SceneDelegate.swift */; };
@@ -23,6 +37,20 @@
 		7B8BB819FC061797AB126947 /* Pods-Live TV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live TV.debug.xcconfig"; path = "Target Support Files/Pods-Live TV/Pods-Live TV.debug.xcconfig"; sourceTree = "<group>"; };
 		96C7B8A6FD0462534EF8A425 /* Pods-Live TV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live TV.release.xcconfig"; path = "Target Support Files/Pods-Live TV/Pods-Live TV.release.xcconfig"; sourceTree = "<group>"; };
 		C4C53A65FFF227D5941A0519 /* Pods_Live_TV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Live_TV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2D7044245048DB0010965A /* bangladesh.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bangladesh.json; sourceTree = "<group>"; };
+		FF2D7046245049250010965A /* EntertainmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntertainmentViewController.swift; sourceTree = "<group>"; };
+		FF70798A2450F8B20091A428 /* CartoonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartoonViewController.swift; sourceTree = "<group>"; };
+		FF70798C2450F8E40091A428 /* CartoonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartoonTableViewCell.swift; sourceTree = "<group>"; };
+		FF75A10B24505A0A00C1E90F /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		FF75A10D24505E1C00C1E90F /* Entertainment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entertainment.swift; sourceTree = "<group>"; };
+		FF75A10F24505E4700C1E90F /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		FF75A11124505E9C00C1E90F /* Sports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sports.swift; sourceTree = "<group>"; };
+		FF75A11324505EB900C1E90F /* Cartoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cartoon.swift; sourceTree = "<group>"; };
+		FF75A1152450ABDB00C1E90F /* EnterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterTableViewCell.swift; sourceTree = "<group>"; };
+		FF75A1172450CC9300C1E90F /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		FF75A1192450CCC800C1E90F /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		FF75A11B2450D3EC00C1E90F /* SportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsViewController.swift; sourceTree = "<group>"; };
+		FF75A11D2450D40B00C1E90F /* SportsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsTableViewCell.swift; sourceTree = "<group>"; };
 		FF7A4C23244E188500187EC9 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		FFB10277244D9808008AC7D7 /* Live TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Live TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB1027A244D9808008AC7D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +93,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FF2D7043245048AE0010965A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FF2D7044245048DB0010965A /* bangladesh.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FF75A1092450588900C1E90F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF75A10B24505A0A00C1E90F /* Base.swift */,
+				FF75A10D24505E1C00C1E90F /* Entertainment.swift */,
+				FF75A10F24505E4700C1E90F /* News.swift */,
+				FF75A11124505E9C00C1E90F /* Sports.swift */,
+				FF75A11324505EB900C1E90F /* Cartoon.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FFB1026E244D9808008AC7D7 = {
 			isa = PBXGroup;
 			children = (
@@ -86,10 +134,11 @@
 		FFB10279244D9808008AC7D7 /* Live TV */ = {
 			isa = PBXGroup;
 			children = (
-				FFB10293244E13A3008AC7D7 /* Model */,
+				FF75A1092450588900C1E90F /* Model */,
 				FFB10292244E139F008AC7D7 /* View */,
 				FFB10291244E139C008AC7D7 /* Controller */,
 				FFB10290244E1398008AC7D7 /* Support */,
+				FF2D7043245048AE0010965A /* Resource */,
 				FFB10283244D9809008AC7D7 /* Assets.xcassets */,
 				FFB10288244D9809008AC7D7 /* Info.plist */,
 			);
@@ -112,6 +161,14 @@
 			children = (
 				FFB1027E244D9808008AC7D7 /* ViewController.swift */,
 				FFB10294244E1431008AC7D7 /* TabBarViewController.swift */,
+				FF2D7046245049250010965A /* EntertainmentViewController.swift */,
+				FF75A1152450ABDB00C1E90F /* EnterTableViewCell.swift */,
+				FF75A1172450CC9300C1E90F /* NewsViewController.swift */,
+				FF75A1192450CCC800C1E90F /* NewsTableViewCell.swift */,
+				FF75A11B2450D3EC00C1E90F /* SportsViewController.swift */,
+				FF75A11D2450D40B00C1E90F /* SportsTableViewCell.swift */,
+				FF70798A2450F8B20091A428 /* CartoonViewController.swift */,
+				FF70798C2450F8E40091A428 /* CartoonTableViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -123,13 +180,6 @@
 				FFB10285244D9809008AC7D7 /* LaunchScreen.storyboard */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		FFB10293244E13A3008AC7D7 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF2D7045245048DB0010965A /* bangladesh.json in Resources */,
 				FFB10287244D9809008AC7D7 /* LaunchScreen.storyboard in Resources */,
 				FFB10284244D9809008AC7D7 /* Assets.xcassets in Resources */,
 				FFB10282244D9808008AC7D7 /* Main.storyboard in Resources */,
@@ -249,10 +300,23 @@
 			files = (
 				FFB1028F244D9A1B008AC7D7 /* Ad.swift in Sources */,
 				FFB1027F244D9808008AC7D7 /* ViewController.swift in Sources */,
+				FF75A11A2450CCC800C1E90F /* NewsTableViewCell.swift in Sources */,
+				FF75A10E24505E1C00C1E90F /* Entertainment.swift in Sources */,
 				FF7A4C24244E188500187EC9 /* Utility.swift in Sources */,
+				FF75A10C24505A0A00C1E90F /* Base.swift in Sources */,
+				FF75A11E2450D40B00C1E90F /* SportsTableViewCell.swift in Sources */,
+				FF75A11224505E9C00C1E90F /* Sports.swift in Sources */,
+				FF75A11424505EB900C1E90F /* Cartoon.swift in Sources */,
+				FF75A1162450ABDB00C1E90F /* EnterTableViewCell.swift in Sources */,
 				FFB1027B244D9808008AC7D7 /* AppDelegate.swift in Sources */,
 				FFB10295244E1431008AC7D7 /* TabBarViewController.swift in Sources */,
 				FFB1027D244D9808008AC7D7 /* SceneDelegate.swift in Sources */,
+				FF70798B2450F8B20091A428 /* CartoonViewController.swift in Sources */,
+				FF75A1182450CC9300C1E90F /* NewsViewController.swift in Sources */,
+				FF75A11024505E4700C1E90F /* News.swift in Sources */,
+				FF2D7047245049250010965A /* EntertainmentViewController.swift in Sources */,
+				FF75A11C2450D3EC00C1E90F /* SportsViewController.swift in Sources */,
+				FF70798D2450F8E40091A428 /* CartoonTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
