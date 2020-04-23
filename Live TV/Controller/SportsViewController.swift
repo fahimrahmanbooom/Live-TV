@@ -11,7 +11,7 @@ import GoogleMobileAds
 import AVKit
 import JGProgressHUD
 
-class SportsViewController: UIViewController {
+final class SportsViewController: UIViewController {
     
     
     @IBOutlet weak var sportsViewBannerTop: GADBannerView!
@@ -20,11 +20,11 @@ class SportsViewController: UIViewController {
     
     @IBOutlet weak var sportsTableView: UITableView!
     
-    let hud = JGProgressHUD(style: .dark)
+    private let hud = JGProgressHUD(style: .dark)
     
-    let avPlayer = AVPlayerViewController()
+    private let avPlayer = AVPlayerViewController()
     
-    var response: Base!
+    private var response: Base!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,6 +38,8 @@ class SportsViewController: UIViewController {
         
         sportsTableView.delegate = self
         sportsTableView.dataSource = self
+        
+        sportsTableView.backgroundColor = .white
         
         prepareBannerAd()
         gettingDataFromResource(resourceName: Country.shared.countryName)

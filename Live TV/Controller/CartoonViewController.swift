@@ -11,7 +11,7 @@ import GoogleMobileAds
 import AVKit
 import JGProgressHUD
 
-class CartoonViewController: UIViewController {
+final class CartoonViewController: UIViewController {
     
     
     @IBOutlet weak var cartoonViewBannerTop: GADBannerView!
@@ -20,11 +20,11 @@ class CartoonViewController: UIViewController {
     
     @IBOutlet weak var cartoonTableView: UITableView!
     
-    let hud = JGProgressHUD(style: .dark)
+    private let hud = JGProgressHUD(style: .dark)
     
-    let avPlayer = AVPlayerViewController()
+    private let avPlayer = AVPlayerViewController()
     
-    var response: Base!
+    private var response: Base!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,6 +38,8 @@ class CartoonViewController: UIViewController {
         
         cartoonTableView.delegate = self
         cartoonTableView.dataSource = self
+        
+        cartoonTableView.backgroundColor = .white
         
         prepareBannerAd()
         gettingDataFromResource(resourceName: Country.shared.countryName)

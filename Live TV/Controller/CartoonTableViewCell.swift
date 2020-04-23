@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CartoonTableViewCell: UITableViewCell {
+final class CartoonTableViewCell: UITableViewCell {
     
     @IBOutlet weak var channelNameLabel: UILabel!
     

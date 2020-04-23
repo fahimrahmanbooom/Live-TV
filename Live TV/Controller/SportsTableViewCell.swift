@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SportsTableViewCell: UITableViewCell {
+final class SportsTableViewCell: UITableViewCell {
     
     @IBOutlet weak var channelNameLabel: UILabel!
     

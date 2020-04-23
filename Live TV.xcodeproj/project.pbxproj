@@ -12,6 +12,8 @@
 		FF2D7047245049250010965A /* EntertainmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2D7046245049250010965A /* EntertainmentViewController.swift */; };
 		FF70798B2450F8B20091A428 /* CartoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70798A2450F8B20091A428 /* CartoonViewController.swift */; };
 		FF70798D2450F8E40091A428 /* CartoonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70798C2450F8E40091A428 /* CartoonTableViewCell.swift */; };
+		FF70798F2451AFCF0091A428 /* india.json in Resources */ = {isa = PBXBuildFile; fileRef = FF70798E2451AFCE0091A428 /* india.json */; };
+		FF7079912451AFDF0091A428 /* other.json in Resources */ = {isa = PBXBuildFile; fileRef = FF7079902451AFDF0091A428 /* other.json */; };
 		FF75A10C24505A0A00C1E90F /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF75A10B24505A0A00C1E90F /* Base.swift */; };
 		FF75A10E24505E1C00C1E90F /* Entertainment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF75A10D24505E1C00C1E90F /* Entertainment.swift */; };
 		FF75A11024505E4700C1E90F /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF75A10F24505E4700C1E90F /* News.swift */; };
@@ -31,6 +33,7 @@
 		FFB10287244D9809008AC7D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB10285244D9809008AC7D7 /* LaunchScreen.storyboard */; };
 		FFB1028F244D9A1B008AC7D7 /* Ad.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB1028E244D9A1B008AC7D7 /* Ad.swift */; };
 		FFB10295244E1431008AC7D7 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB10294244E1431008AC7D7 /* TabBarViewController.swift */; };
+		FFF8024C2451BE8F0066EE53 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF8024B2451BE8F0066EE53 /* NavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,8 @@
 		FF2D7046245049250010965A /* EntertainmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntertainmentViewController.swift; sourceTree = "<group>"; };
 		FF70798A2450F8B20091A428 /* CartoonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartoonViewController.swift; sourceTree = "<group>"; };
 		FF70798C2450F8E40091A428 /* CartoonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartoonTableViewCell.swift; sourceTree = "<group>"; };
+		FF70798E2451AFCE0091A428 /* india.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = india.json; sourceTree = "<group>"; };
+		FF7079902451AFDF0091A428 /* other.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = other.json; sourceTree = "<group>"; };
 		FF75A10B24505A0A00C1E90F /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		FF75A10D24505E1C00C1E90F /* Entertainment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entertainment.swift; sourceTree = "<group>"; };
 		FF75A10F24505E4700C1E90F /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
@@ -62,6 +67,7 @@
 		FFB10288244D9809008AC7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFB1028E244D9A1B008AC7D7 /* Ad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ad.swift; sourceTree = "<group>"; };
 		FFB10294244E1431008AC7D7 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		FFF8024B2451BE8F0066EE53 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				FF2D7044245048DB0010965A /* bangladesh.json */,
+				FF70798E2451AFCE0091A428 /* india.json */,
+				FF7079902451AFDF0091A428 /* other.json */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -159,6 +167,7 @@
 		FFB10291244E139C008AC7D7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FFF8024B2451BE8F0066EE53 /* NavigationViewController.swift */,
 				FFB1027E244D9808008AC7D7 /* ViewController.swift */,
 				FFB10294244E1431008AC7D7 /* TabBarViewController.swift */,
 				FF2D7046245049250010965A /* EntertainmentViewController.swift */,
@@ -242,7 +251,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF70798F2451AFCF0091A428 /* india.json in Resources */,
 				FF2D7045245048DB0010965A /* bangladesh.json in Resources */,
+				FF7079912451AFDF0091A428 /* other.json in Resources */,
 				FFB10287244D9809008AC7D7 /* LaunchScreen.storyboard in Resources */,
 				FFB10284244D9809008AC7D7 /* Assets.xcassets in Resources */,
 				FFB10282244D9808008AC7D7 /* Main.storyboard in Resources */,
@@ -306,6 +317,7 @@
 				FF75A10C24505A0A00C1E90F /* Base.swift in Sources */,
 				FF75A11E2450D40B00C1E90F /* SportsTableViewCell.swift in Sources */,
 				FF75A11224505E9C00C1E90F /* Sports.swift in Sources */,
+				FFF8024C2451BE8F0066EE53 /* NavigationViewController.swift in Sources */,
 				FF75A11424505EB900C1E90F /* Cartoon.swift in Sources */,
 				FF75A1162450ABDB00C1E90F /* EnterTableViewCell.swift in Sources */,
 				FFB1027B244D9808008AC7D7 /* AppDelegate.swift in Sources */,

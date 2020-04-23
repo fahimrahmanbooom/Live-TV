@@ -11,18 +11,18 @@ import GoogleMobileAds
 import AVKit
 import JGProgressHUD
 
-class EntertainmentViewController: UIViewController {
+final class EntertainmentViewController: UIViewController {
     
     @IBOutlet weak var enterViewBannerTop: GADBannerView!
     @IBOutlet weak var enterViewBannerBottom: GADBannerView!
     
     @IBOutlet weak var enterTableView: UITableView!
     
-    let hud = JGProgressHUD(style: .dark)
+    private let hud = JGProgressHUD(style: .dark)
     
-    let avPlayer = AVPlayerViewController()
+    private let avPlayer = AVPlayerViewController()
     
-    var response: Base!
+    private var response: Base!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +36,8 @@ class EntertainmentViewController: UIViewController {
         
         enterTableView.delegate = self
         enterTableView.dataSource = self
+        
+        enterTableView.backgroundColor = .white
         
         prepareBannerAd()
         gettingDataFromResource(resourceName: Country.shared.countryName)

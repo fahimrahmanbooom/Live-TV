@@ -1,0 +1,598 @@
+{
+   "entertainment":[
+      {
+         "name":"ABP Ananda",
+         "link":"https://abp-i.akamaihd.net/hls/live/765530/abpananda/masterhls_1564.m3u8"
+      },
+      {
+         "name":"ABP Asmita",
+         "link":"https://abp-i.akamaihd.net/hls/live/765532/abpasmita/masterhls_1564.m3u8"
+      },
+      {
+         "name":"ABP Majha",
+         "link":"https://abp-i.akamaihd.net/hls/live/765531/abpmajha/masterhls_1564.m3u8"
+      },
+      {
+         "name":"ACV",
+         "link":"https://acv.asianetmobiletvplus.com/webstreams/8f8e72769cb3e3a6e27c220e1e3887b8.smil/playlist.m3u8"
+      },
+      {
+         "name":"ACV Utsav",
+         "link":"https://acv.asianetmobiletvplus.com/webstreams/021c9292219a98f899a7b74f0f34baa7.smil/playlist.m3u8"
+      },
+      {
+         "name":"ACV Utsav Plus",
+         "link":"https://acv.asianetmobiletvplus.com/webstreams/7eb4dc1f3240c8eb776d41b95bd1d197.smil/playlist.m3u8"
+      },
+      {
+         "name":"Akaal TV",
+         "link":"http://akaal.zecast.net/akaal-live/smil:akaaltv.smil/playlist.m3u8"
+      },
+      {
+         "name":"Akaram TV",
+         "link":"http://akaram.zecast.net/akaram-live/akaramnew2/index.m3u8"
+      },
+      {
+         "name":"Amrita TV",
+         "link":"http://103.199.161.254/Content/amrita/Live/Channel(Amrita)/index.m3u8"
+      },
+      {
+         "name":"Ananda TV",
+         "link":"http://tvserver.roarzone.info:2087/live/test/test/39.m3u8"
+      },
+      {
+         "name":"ARY Family",
+         "link":"http://95.211.211.168/live/aryfamily0071/playlist.m3u8"
+      },
+      {
+         "name":"B4U Movies",
+         "link":"http://103.199.161.254/Content/b4umovies/Live/Channel(B4UMovies)/index.m3u8"
+      },
+      {
+         "name":"B4U Music",
+         "link":"http://103.199.161.254/Content/B4Umusic/Live/Channel(B4Umusic)/index.m3u8"
+      },
+      {
+         "name":"B4U Plus",
+         "link":"http://livecdnh3.tvanywhere.ae/hls/b4uplus/04.m3u8"
+      },
+      {
+         "name":"Bhakti Sagar",
+         "link":"http://linear02hun-lh.akamaihd.net/i/bhaktisagar_1@665239/index_2128_av-p.m3u8"
+      },
+      {
+         "name":"Bollywood Now",
+         "link":"https://a.jsrdn.com/broadcast/d4dba2e3/+0000/hi/c.m3u8"
+      },
+      {
+         "name":"Boogle Bollywood",
+         "link":"http://live.agmediachandigarh.com/booglebollywood/774e3ea9f3fa9bcdac47f445b83b6653.sdp/index.m3u8"
+      },
+      {
+         "name":"Cine Voice",
+         "link":"http://live.wmncdn.net/cinevoice/508a8ec9dfdb9c61df9823aac272b719.sdp/index.m3u8"
+      },
+      {
+         "name":"Classics Marathi",
+         "link":"https://d1fi19tywmn14b.cloudfront.net/yuppindmov/ngrp:ymarcla.stream_all/playlist.m3u8"
+      },
+      {
+         "name":"Classics Tamil",
+         "link":"https://d1fi19tywmn14b.cloudfront.net/yuppindmov/ngrp:ytamcla.stream_all/playlist.m3u8"
+      },
+      {
+         "name":"Classics Telugu",
+         "link":"https://d1fi19tywmn14b.cloudfront.net/yuppindmov/ngrp:ytelcla.stream_all/playlist.m3u8"
+      },
+      {
+         "name":"Colors Bangla",
+         "link":"https://itpolly.iptv.digijadoo.net/live/colors_bangla_hd/playlist.m3u8"
+      },
+      {
+         "name":"Comedy Telugu",
+         "link":"https://d1fi19tywmn14b.cloudfront.net/yuppindmov/ngrp:ytelcom.stream_all/playlist.m3u8"
+      },
+      {
+         "name":"DD Malayalam",
+         "link":"http://103.199.161.254/Content/ddmalayalam/Live/Channel(DDMalayalam)/index.m3u8"
+      },
+      {
+         "name":"DD National",
+         "link":"http://103.199.161.254/Content/ddnational/Live/Channel(DDNational)/index.m3u8"
+      },
+      {
+         "name":"DD Punjabi",
+         "link":"http://playhls.media.nic.in/live/ddpunjabi-360p/index.m3u8"
+      },
+      {
+         "name":"DD Vyas",
+         "link":"http://playhls.media.nic.in/live/vyas-360p/index.m3u8"
+      },
+      {
+         "name":"Desi Channel",
+         "link":"http://live.wmncdn.net/desichannel/7e2dd0aed46b70a5c77f4affdb702e4b.sdp/mono.m3u8"
+      },
+      {
+         "name":"Desi Plus",
+         "link":"http://cdn2.live247stream.com/desiplus/tv/playlist.m3u8"
+      },
+      {
+         "name":"Dhamaal",
+         "link":"http://linear06hun-lh.akamaihd.net/i/dhamaal_1@665243/index_2128_av-p.m3u8"
+      },
+      {
+         "name":"Dil Se",
+         "link":"http://linear07hun-lh.akamaihd.net/i/dilse_1@673921/master.m3u8"
+      },
+      {
+         "name":"Divya",
+         "link":"http://edge-ind.inapcdn.in:1935/berry1/latest.stream_aac/chunklist_w927914309.m3u8"
+      },
+      {
+         "name":"Fashion TV",
+         "link":"http://fash1043.cloudycdn.services/slive/_definst_/ftv_pg16_adaptive.smil/playlist.m3u8"
+      },
+      {
+         "name":"Fateh TV",
+         "link":"http://175.176.184.11:1935/live/fatehtv/playlist.m3u8"
+      },
+      {
+         "name":"Flowers TV",
+         "link":"http://103.199.161.254/Content/flowers/Live/Channel(Flowers)/index.m3u8"
+      },
+      {
+         "name":"Gaunda Punjab TV",
+         "link":"http://start.agmediachandigarh.com/gaundapunjab/tv/playlist.m3u8"
+      },
+      {
+         "name":"GCTV Goa",
+         "link":"https://5a9fe19ea6821.streamlock.net:443/gctv/ngrp:livestream_all/playlist.m3u8"
+      },
+      {
+         "name":"Gurbani Healing",
+         "link":"http://live.wmncdn.net/gurbanihealing/e09c9e2a70cc03a0b6d2171391dd682b.sdp/index.m3u8"
+      },
+      {
+         "name":"Hamdard TV",
+         "link":"http://cdn.samtv.ca/hamdard/index.m3u8"
+      },
+      {
+         "name":"Hiru TV",
+         "link":"http://cdncities.com/8012/8012/playlist.m3u8"
+      },
+      {
+         "name":"History",
+         "link":"https://itpolly.iptv.digijadoo.net/live/history_tv_hd/chunks.m3u8"
+      },
+      {
+         "name":"Hungama Digital Network",
+         "link":"http://linear07hun-lh.akamaihd.net/i/dilse_1@673921/index_2128_av-p.m3u8"
+      },
+      {
+         "name":"IBC Comedy",
+         "link":"https://ibccomedy-origin.ibctamil.com/transcode/ibccomedy_std.m3u8"
+      },
+      {
+         "name":"IBC Tamil",
+         "link":"https://ibctamil-live.ibctamil.com/transcode/ibctamil_std.m3u8"
+      },
+      {
+         "name":"Inchara TV",
+         "link":"http://inchara.livebox.co.in/incharahls/live.m3u8"
+      },
+      {
+         "name":"Jaihind TV",
+         "link":"http://103.199.161.254/Content/jaihind/Live/Channel(Jaihind)/index.m3u8"
+      },
+      {
+         "name":"Janataa TV",
+         "link":"http://mydreams.livebox.co.in/Janataatvhls/Janataatv.m3u8"
+      },
+      {
+         "name":"Jeevan TV",
+         "link":"http://103.199.161.254/Content/jeevan/Live/Channel(Jeevan)/index.m3u8"
+      },
+      {
+         "name":"Kadak Hits",
+         "link":"http://linear01hun-lh.akamaihd.net/i/faaduhits_1@660838/master.m3u8"
+      },
+      {
+         "name":"Kairali",
+         "link":"http://103.199.161.254/Content/kairali/Live/Channel(Kairali)/Stream(01)/index.m3u8"
+      },
+      {
+         "name":"Kappa TV",
+         "link":"http://103.199.161.254/Content/kappa/Live/Channel(Kappa)/index.m3u8"
+      },
+      {
+         "name":"Kasthuri TV",
+         "link":"http://103.199.161.254/Content/kasthuritv/Live/Channel(KasthuriTV)/index.m3u8"
+      },
+      {
+         "name":"Kaumudy TV",
+         "link":"http://live.wmncdn.net/kaumuditv1/live.stream/index.m3u8"
+      },
+      {
+         "name":"KTV",
+         "link":"https://d1fi19tywmn14b.cloudfront.net/yuppindmov/ngrp:ytamcla.stream_all/chunklist_w798628189_b232000.m3u8"
+      },
+      {
+         "name":"Maha Movie",
+         "link":"http://streamidvo.multitvsolution.in/MahaMovie-e/playlist.m3u8"
+      },
+      {
+         "name":"Mastiii",
+         "link":"http://103.199.160.85/Content/masthi/Live/Channel(Masthi)/index.m3u8"
+      },
+      {
+         "name":"Mazhavil Manorama HD",
+         "link":"http://103.199.161.254/Content/mazhavil/Live/Channel(Mazhavil)/index.m3u8"
+      },
+      {
+         "name":"Media One",
+         "link":"https://vidcdn.vidgyor.com/mediaone-origin/liveabr/mediaone-origin/live1/chunks.m3u8"
+      },
+      {
+         "name":"Mirror Now",
+         "link":"http://mbnowweb-lh.akamaihd.net/i/MRN_1@346545/index_576_av-p.m3u8"
+      },
+      {
+         "name":"MK TV",
+         "link":"http://103.199.160.85/Content/mktv/Live/Channel(MKTV)/index.m3u8"
+      },
+      {
+         "name":"MTV Beats",
+         "link":"https://itpolly.iptv.digijadoo.net/live/mtv_beats/chunks.m3u8"
+      },
+      {
+         "name":"Music Now",
+         "link":"http://livecdnh1.tvanywhere.ae/hls/music_now/04.m3u8"
+      },
+      {
+         "name":"Nav Media",
+         "link":"http://abr.wmncdn.net/abr/612a5eb791b43209a8eccdde569e8ee1.m3u8"
+      },
+      {
+         "name":"Nazrana",
+         "link":"http://linear08hun-lh.akamaihd.net/i/nazrana_1@673935/master.m3u8"
+      },
+      {
+         "name":"Pop Pataka",
+         "link":"https://linear04hun-lh.akamaihd.net/i/poppataka_1@665241/index_2128_av-p.m3u8"
+      },
+      {
+         "name":"Premium Marathi",
+         "link":"https://d1fi19tywmn14b.cloudfront.net/yuppindmov/ngrp:ymarpre.stream_all/playlist.m3u8"
+      },
+      {
+         "name":"Prime Canada TV",
+         "link":"http://cdn27.live247stream.com/primecanada/247/primecanada/stream1/chunks.m3u8"
+      },
+      {
+         "name":"Public Music",
+         "link":"http://103.199.161.254/Content/publicmusic/Live/Channel(PublicMusic)/index.m3u8"
+      },
+      {
+         "name":"Punjabi TV",
+         "link":"http://cdn9.live247stream.com/punjabitvcanada/tv/playlist.m3u8"
+      },
+      {
+         "name":"Puthuyugam TV",
+         "link":"http://103.199.160.85/Content/puthuyugam/Live/Channel(Puthuyugam)/index.m3u8"
+      },
+      {
+         "name":"Rosebowl",
+         "link":"https://acv.asianetmobiletvplus.com/webstreams/ef22daf97d61acb4bf52376c4105ad02.smil/playlist.m3u8"
+      },
+      {
+         "name":"Rai Premium",
+         "link":"http://b2everyrai-lh.akamaihd.net/i/raipremium_1@181837/master.m3u8"
+      },
+      {
+         "name":"Sardari TV",
+         "link":"http://158.69.124.9:1935/sardaritv/sardaritv/playlist.m3u8"
+      },
+      {
+         "name":"Shubhsandesh",
+         "link":"http://6284rn2xr7xv-hls-live.wmncdn.net/shubhsandeshtv1/live123.stream/index.m3u8"
+      },
+      {
+         "name":"Star Bharat",
+         "link":"https://itpolly.iptv.digijadoo.net/live/star_bharat/chunks.m3u8"
+      },
+      {
+         "name":"Star Jalsha",
+         "link":"https://itpolly.iptv.digijadoo.net/live/star_jalsha_hd/playlist.m3u8"
+      },
+      {
+         "name":"Star Jalsha Movies",
+         "link":"https://itpolly.iptv.digijadoo.net/live/jalsha_movies/chunks.m3u8"
+      },
+      {
+         "name":"Star Plus HD",
+         "link":"https://itpolly.iptv.digijadoo.net/live/star_plus_hd/chunks.m3u8"
+      },
+      {
+         "name":"Star Plus SD",
+         "link":"https://itpolly.iptv.digijadoo.net/live/star_plus/chunks.m3u8"
+      },
+      {
+         "name":"Star Gold",
+         "link":"https://itpolly.iptv.digijadoo.net/live/star_gold/chunks.m3u8"
+      },
+      {
+         "name":"Star Gold HD",
+         "link":"http://216.144.250.174/Star_G0ld_HD/tracks-v1a1/mono.m3u8"
+      },
+      {
+         "name":"Sony Aath",
+         "link":"http://tvserver.roarzone.info:8082/47/index.m3u8"
+      },
+      {
+         "name":"Sony MaX2",
+         "link":"http://216.144.250.174/Sony_MaX_HD_02/playlist.m3u8"
+      },
+      {
+         "name":"Steelbird Music",
+         "link":"http://cdn25.live247stream.com/steelbirdmusic/tv/playlist.m3u8"
+      },
+      {
+         "name":"Subrang TV",
+         "link":"http://cdn61.liveonlineservices.com/hls/subrang.m3u8"
+      },
+      {
+         "name":"Super TV",
+         "link":"http://103.199.160.85/Content/supertv/Live/Channel(SuperTV)/index.m3u8"
+      },
+      {
+         "name":"Sur Sagar TV",
+         "link":"http://sursagar24.dyndns.tv:8080/sstv/720p/index.m3u8"
+      },
+      {
+         "name":"Thirumalai TV",
+         "link":"http://abcmedias2.livewebcast.in/abcmedias/_definst_/abcmediaslive.stream/playlist.m3u8"
+      },
+      {
+         "name":"TLC",
+         "link":"http://streamidvo.multitvsolution.in/TLCHDHindi-a/playlist.m3u8"
+      },
+      {
+         "name":"TV9 Telugu",
+         "link":"http://103.199.161.254/Content/tv9telungu/Live/Channel(TV9Telungu)/index.m3u8"
+      },
+      {
+         "name":"Vaanavil TV",
+         "link":"http://live.wmncdn.net/vaanaviltv/live.stream/index.m3u8"
+      },
+      {
+         "name":"Vasantham",
+         "link":"https://d39v9xz8f7n8tk.cloudfront.net//hls//vsnthmctv//master.m3u8"
+      },
+      {
+         "name":"Vyas Higher Education Channel",
+         "link":"http://playhls.media.nic.in/live/vyas/index.m3u8"
+      },
+      {
+         "name":"Wow Music ",
+         "link":"http://103.199.161.254/Content/wowmusic/Live/Channel(WowMusic)/index.m3u8"
+      },
+      {
+         "name":"Zee Aflam",
+         "link":"http://livecdnh3.tvanywhere.ae/hls/zeeaflam/01.m3u8"
+      },
+      {
+         "name":"Zee Bangla",
+         "link":"http://livecdnh1.tvanywhere.ae/hls/zee_bangla/04.m3u8"
+      },
+      {
+         "name":"Zee Bollywood",
+         "link":"https://itpolly.iptv.digijadoo.net/live/zee_classic/chunks.m3u8"
+      },
+      {
+         "name":"Zee Cinema",
+         "link":"https://itpolly.iptv.digijadoo.net/live/zee_cinema/chunks.m3u8"
+      },
+      {
+         "name":"Zee Classic",
+         "link":"http://216.144.250.174/Zee_ClassIc_HD/tracks-v1a1/mono.m3u8"
+      },
+      {
+         "name":"Zee TV",
+         "link":"https://itpolly.iptv.digijadoo.net/live/zee_tv/chunks.m3u8"
+      },
+      {
+         "name":"Zoom",
+         "link":"http://livecdnh1.tvanywhere.ae/hls/zoom/05.m3u8"
+      },
+      {
+         "name":"Zing",
+         "link":"https://itpolly.iptv.digijadoo.net/live/zing/chunks.m3u8"
+      }
+   ],
+   "news":[
+      {
+         "name":"ABP News",
+         "link":"https://abp-i.akamaihd.net/hls/live/765529/abphindi/masterhls_1564.m3u8"
+      },
+      {
+         "name":"Asianet News",
+         "link":"http://103.199.161.254/Content/asianetnews/Live/Channel(Asianetnews)/index.m3u8"
+      },
+      {
+         "name":"Assam Talks",
+         "link":"http://vidnetcdn.vidgyor.com/assamtalks-origin/liveabr/playlist.m3u8"
+      },
+      {
+         "name":"ACV News",
+         "link":"https://acv.asianetmobiletvplus. com/webstreams/3e85eb4c12bd2110d3f495676205d50a.smil/playlist.m3u8"
+      },
+      {
+         "name":"CNBC Awaaz",
+         "link":"https://cnbcawaaz-lh.akamaihd.net/i/cnbcawaaz_1@174872/index_5_av-p.m3u8"
+      },
+      {
+         "name":"CNBC Bajar",
+         "link":"https://cnbcbazar-lh.akamaihd.net/i/cnbcbajar_1@178933/index_5_av-p.m3u8"
+      },
+      {
+         "name":"CNBC TV18",
+         "link":"https://cnbctv18-lh.akamaihd.net/i/cnbctv18_1@174868/index_5_av-p.m3u8"
+      },
+      {
+         "name":"DD News",
+         "link":"http://nicls1-lh.akamaihd.net/i/ddnews_1@409133/master.m3u8"
+      },
+      {
+         "name":"ET Now",
+         "link":"http://etnowweblive-lh.akamaihd.net/i/ETN_1@348070/index_576_av-b.m3u8"
+      },
+      {
+         "name":"India TV",
+         "link":"https://live-indiatvnews.akamaized.net/indiatv-origin/liveabr/indiatv- origin/ITV_1_3@199237/chunks.m3u8"
+      },
+      {
+         "name":"India Today",
+         "link":"https://feeds.intoday.in/hltapps/api/master.m3u8"
+      },
+      {
+         "name":"Janam TV",
+         "link":"https://vidcdn.vidgyor.com/janamtv-origin/liveabr/janamtv-origin/live3/chunks.m3u8"
+      },
+      {
+         "name":"Janta TV",
+         "link":"http://live.wmncdn.net/jantatv/live.stream/index.m3u8"
+      },
+      {
+         "name":"Kairali News",
+         "link":"http://103.199.161.254/Content/people/Live/Channel(People)/index.m3u8"
+      },
+      {
+         "name":"Lok Sabha TV",
+         "link":"https://nicls1-lh.akamaihd.net/i/lst_1@26969/index_1_av-p.m3u8?sd=10&rebase=on"
+      },
+      {
+         "name":"Lotus TV News",
+         "link":"http://51.75.95.11:5080/LiveApp/streams/962725995284705956438804.m3u8"
+      },
+      {
+         "name":"Mangalam TV",
+         "link":"http://103.199.160.85/Content/mangalam/Live/Channel(Mangalam)/index.m3u8"
+      },
+      {
+         "name":"Manorama News",
+         "link":"http://103.199.161.254/Content/manoramanews/Live/Channel(ManoramaNews)/index.m3u8"
+      },
+      {
+         "name":"Mathrubhumi News",
+         "link":"http://103.199.161.254/Content/mathrubhuminews/Live/Channel(Mathrubhuminews) /index.m3u8"
+      },
+      {
+         "name":"NDTV 24x7",
+         "link":"https://ndtv24x7elemarchana.akamaized. net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8"
+      },
+      {
+         "name":"News 24",
+         "link":"https://vidcdn.vidgyor.com/news24-origin/liveabr/news24-origin/live1/chunks.m3u8"
+      },
+      {
+         "name":"News18 Lokmat",
+         "link":"https://news18lokmat-lh.akamaihd.net/i/n18lokmat_1@178974/index_5_av-p.m3u8"
+      },
+      {
+         "name":"Pratidin Time",
+         "link":"https://rtmp.smartstream.video/pratidintime/pratidintime/playlist.m3u8"
+      },
+      {
+         "name":"Punjabi Tadka",
+         "link":"http://linear05hun-lh.akamaihd.net/i/punjabitadka_1@665242/master.m3u8"
+      },
+      {
+         "name":"Reporter TV",
+         "link":"http://103.199.161.254/Content/reporter/Live/Channel(Reporter)/index.m3u8"
+      },
+      {
+         "name":"RSTV RajyaSabha",
+         "link":"http://nicls2-lh.akamaihd.net/i/rstv_1@26970/master.m3u8"
+      },
+      {
+         "name":"R Plus News",
+         "link":"https://cdn.smartstream.video/smartstream-us/rplus/rplus/playlist.m3u8"
+      },
+      {
+         "name":"Suvarna News 24×7",
+         "link":"https://vidcdn.vidgyor.com/suvarna-origin/liveabr/suvarna-origin/live1/chunks.m3u8"
+      },
+      {
+         "name":"Tamil Business TV",
+         "link":"http://rtmp.santhoratv.zecast.net/tamilbusinesstv//tamilbusinesstv/playlist.m3u8"
+      },
+      {
+         "name":"Tamil Vision International",
+         "link":"http://live.tamilvision.tv:8081/TVI/SD/chunks.m3u8"
+      },
+      {
+         "name":"Thanthi TV",
+         "link":"https://vidcdn.vidgyor.com/thanthi-origin/liveabr/thanthi-origin/live1/chunks.m3u8"
+      },
+      {
+         "name":"The Q India",
+         "link":"https://amg1-i.akamaihd.net/hls/live/784034/Q001/playlist.m3u8? __nn__=5606168722001&hdnea=st=1566232200~exp=1566235800~acl=/hls/live/7840 34/Q001/*~hmac=4de929fdc0ee53199a11237ee75a695383a82a42623fa92c1376493e 5fc91d7b"
+      },
+      {
+         "name":"Times Now",
+         "link":"http://timesnow-lh.akamaihd.net/i/TNHD_1@129288/index_720_av-p.m3u8"
+      },
+      {
+         "name":"TV100",
+         "link":"http://edge-ind.inapcdn.in:1935/edge1/shagun.stream_aac/chunklist.m3u8"
+      },
+      {
+         "name":"Twenty Four News",
+         "link":"http://103.199.160.85/Content/24news/Live/Channel(24news)/index.m3u8"
+      }
+   ],
+   "sports":[
+      {
+         "name":"Ads sport cricket",
+         "link":"http://212.47.252.54/hls/stream.m3u8"
+      },
+      {
+         "name":"Ten 2",
+         "link":"http://163.172.85.133:8080/TenS/1/index.m3u8"
+      },
+      {
+         "name":"DD Sports",
+         "link":"http://103.199.161.254/Content/ddsports/Live/Channel(DDSPORTS)/index.m3u8"
+      }
+   ],
+   "cartoon":[
+      {
+         "name":"Discovery Kids",
+         "link":"http://streamidvo.multitvsolution.in/live/DiscoveryKidsHindi-a/p4.m3u8"
+      },
+      {
+         "name":"Disney Junior",
+         "link":"http://103.47.132.164/PLTV/88888888/224/3221226011/index.m3u8"
+      },
+      {
+         "name":"Hungama Digital Network",
+         "link":"http://linear07hun-lh.akamaihd.net/i/dilse_1@673921/index_2128_av-p.m3u8"
+      },
+      {
+         "name":"Sony Aath",
+         "link":"http://tvserver.roarzone.info:8082/47/index.m3u8"
+      },
+      {
+         "name":"Nick Bangla",
+         "link":"https://bracnet.iptv.jadoodigital.com/live/nickelodeon/chunks.m3u8"
+      },
+      {
+         "name":"Nick Sonic Bangla",
+         "link":"https://bracnet.iptv.jadoodigital.com/live/sonic/chunks.m3u8"
+      },
+      {
+         "name":"Nick JR.",
+         "link":"https://bracnet.iptv.jadoodigital.com/live/nick_jr/chunks.m3u8"
+      }
+   ]
+}

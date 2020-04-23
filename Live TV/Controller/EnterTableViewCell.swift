@@ -8,7 +8,7 @@
 
 import UIKit
 
-class EnterTableViewCell: UITableViewCell {
+final class EnterTableViewCell: UITableViewCell {
     
     @IBOutlet weak var channelNameLabel: UILabel!
     

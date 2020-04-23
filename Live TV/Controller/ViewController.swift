@@ -10,7 +10,7 @@ import UIKit
 import GoogleMobileAds
 import JGProgressHUD
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
     
     @IBOutlet weak var bdChButton: UIButton!
     @IBOutlet weak var inChButton: UIButton!
@@ -19,9 +19,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var mainViewBannerTop: GADBannerView!
     @IBOutlet weak var mainViewBannerBottom: GADBannerView!
     
-    var interstitial: GADInterstitial!
+    private var interstitial: GADInterstitial!
     
-    let hud = JGProgressHUD(style: .dark)
+    private let hud = JGProgressHUD(style: .dark)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -152,7 +152,7 @@ extension ViewController {
         
         navigationItem.backBarButtonItem = UIBarButtonItem(
             title: "Menu", style: .plain, target: nil, action: nil)
-        navigationItem.backBarButtonItem?.tintColor = .black
+        navigationItem.backBarButtonItem?.tintColor = .red
     }
 
     

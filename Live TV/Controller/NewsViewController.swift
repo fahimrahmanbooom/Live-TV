@@ -11,18 +11,18 @@ import GoogleMobileAds
 import AVKit
 import JGProgressHUD
 
-class NewsViewController: UIViewController {
+final class NewsViewController: UIViewController {
     
     @IBOutlet weak var newsViewBannerTop: GADBannerView!
     @IBOutlet weak var newsViewBannerBottom: GADBannerView!
     
     @IBOutlet weak var newsTableView: UITableView!
     
-    let hud = JGProgressHUD(style: .dark)
+    private let hud = JGProgressHUD(style: .dark)
     
-    let avPlayer = AVPlayerViewController()
+    private let avPlayer = AVPlayerViewController()
     
-    var response: Base!
+    private var response: Base!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +36,8 @@ class NewsViewController: UIViewController {
         
         newsTableView.delegate = self
         newsTableView.dataSource = self
+        
+        newsTableView.backgroundColor = .white
         
         prepareBannerAd()
         gettingDataFromResource(resourceName: Country.shared.countryName)

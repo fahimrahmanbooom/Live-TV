@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NewsTableViewCell: UITableViewCell {
+final class NewsTableViewCell: UITableViewCell {
     
     @IBOutlet weak var channelNameLabel: UILabel!
     
