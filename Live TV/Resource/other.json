@@ -2,135 +2,162 @@
    "entertainment":[
       {
          "name":"Al Jazeera",
-         "link":"https://itpolly.iptv.digijadoo.net/live/al_jazeera/playlist.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/al_jazeera/playlist.m3u8",
+         "image":"Al Jazeera"
       },
       {
          "name":"Discovery Science",
-         "link":"http://streamidvo.multitvsolution.in/DiscoverScienceEng-a/playlist.m3u8"
+         "link":"http://streamidvo.multitvsolution.in/DiscoverScienceEng-a/playlist.m3u8",
+         "image":"Discovery Science"
       },
       {
          "name":"Discovery Turbo",
-         "link":"http://streamidvo.multitvsolution.in/live/TurboEng-a/p4.m3u8"
+         "link":"http://streamidvo.multitvsolution.in/live/TurboEng-a/p4.m3u8",
+         "image":"Discovery Turbo"
       },
       {
          "name":"FOX Life",
-         "link":"https://itpolly.iptv.digijadoo.net/live/fox_life/chunks.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/fox_life/chunks.m3u8",
+         "image":"FOX Life"
       },
       {
          "name":"Investigation Discovery",
-         "link":"http://streamidvo.multitvsolution.in/Investigation_Discovery-a/playlist.m3u8"
+         "link":"http://streamidvo.multitvsolution.in/Investigation_Discovery-a/playlist.m3u8",
+         "image":"Investigation Discovery"
       },
       {
          "name":"Harvest TV USA",
-         "link":"http://live.wmncdn.net/harvestusa/d57ffba6564caea2fee3f4085f19a098.sdp/playlist.m3u8"
+         "link":"http://live.wmncdn.net/harvestusa/d57ffba6564caea2fee3f4085f19a098.sdp/playlist.m3u8",
+         "image":"Harvest TV USA"
       },
       {
-         "name":"NetGeo People",
-         "link":"https://itpolly.iptv.digijadoo.net/live/nat_geo_people/chunks.m3u8"
+         "name":"NatGeo People",
+         "link":"https://itpolly.iptv.digijadoo.net/live/nat_geo_people/chunks.m3u8",
+         "image":"NatGeo People"
       },
       {
          "name":"NatGeo Wild",
-         "link":"https://itpolly.iptv.digijadoo.net/live/nat_geo_wild/chunks.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/nat_geo_wild/chunks.m3u8",
+         "image":"NatGeo Wild"
       },
       {
          "name":"NatGeo Wild HD",
-         "link":"http://livecdnh1.tvanywhere.ae/hls/nat_geo_wild/05.m3u8"
+         "link":"http://livecdnh1.tvanywhere.ae/hls/nat_geo_wild/05.m3u8",
+         "image":"NatGeo Wild HD"
       },
       {
          "name":"Star Movies HD Middle East",
-         "link":"http://livecdnh1.tvanywhere.ae/hls/star_movies/04.m3u8"
+         "link":"http://livecdnh1.tvanywhere.ae/hls/star_movies/04.m3u8",
+         "image":"Star Movies HD Middle East"
       },
       {
          "name":"Star World HD Middle East",
-         "link":"livecdnh1.tvanywhere.ae/hls/star_world/04.m3u8"
+         "link":"livecdnh1.tvanywhere.ae/hls/star_world/04.m3u8",
+         "image":"Star World HD Middle East"
       },
       {
          "name":"Popular Science",
-         "link":"https://a.jsrdn.com/broadcast/447912f76b/+0000/high/c.m3u8"
+         "link":"https://a.jsrdn.com/broadcast/447912f76b/+0000/high/c.m3u8",
+         "image":"Popular Science"
       }
    ],
    "news":[
       {
          "name":"ABC News",
-         "link":"https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8"
+         "link":"https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8",
+         "image":"ABC News"
       },
       {
          "name":"BBC World News",
-         "link":"http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8"
+         "link":"http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8",
+         "image":"BBC World News"
       },
       {
          "name":"CBS News",
-         "link":"https://cbsn-us-cedexis.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8"
+         "link":"https://cbsn-us-cedexis.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8",
+         "image":"CBS News"
       },
       {
          "name":"DW",
-         "link":"http://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/index_1_av-p.m3u8?sd=10&rebase=on"
+         "link":"http://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/index_1_av-p.m3u8?sd=10&rebase=on",
+         "image":"DW"
       },
       {
          "name":"ESPN News",
-         "link":"https://gma2.blab.email/espnews.m3u8"
+         "link":"https://gma2.blab.email/espnews.m3u8",
+         "image":"ESPN News"
       },
       {
          "name":"FOX BUSINESS",
-         "link":"https://gma2.blab.email/espnu.m3u8"
+         "link":"https://gma2.blab.email/espnu.m3u8",
+         "image":"FOX BUSINESS"
       },
       {
          "name":"Hum News",
-         "link":"http://95.211.211.168/live/humnews0189/playlist.m3u8"
+         "link":"http://95.211.211.168/live/humnews0189/playlist.m3u8",
+         "image":"Hum News"
       },
       {
          "name":"Jeevan TV",
-         "link":"http://103.199.161.254/Content/jeevan/Live/Channel(Jeevan)/index.m3u8"
+         "link":"http://103.199.161.254/Content/jeevan/Live/Channel(Jeevan)/index.m3u8",
+         "image":"Jeevan TV"
       },
       {
          "name":"NBC",
-         "link":"http://161.0.157.51/PLTV/88888888/224/3221227040/03.m3u8"
-      },
-      {
-         "name":"Hum News",
-         "link":"http://95.211.211.168/live/humnews0189/playlist.m3u8"
+         "link":"http://161.0.157.51/PLTV/88888888/224/3221227040/03.m3u8",
+         "image":"NBC"
       }
    ],
    "sports":[
       {
          "name":"D sports",
-         "link":"http://jiocgehub.jio.ril.com/Dsports_HD/Dsports_HD_800.m3u8"
+         "link":"http://jiocgehub.jio.ril.com/Dsports_HD/Dsports_HD_800.m3u8",
+         "image":"D sports"
       },
       {
          "name":"Discovery Sports",
-         "link":"http://jiocgehub.jio.ril.com/Dsports_HD/Dsports_HD_800.m3u8"
+         "link":"http://jiocgehub.jio.ril.com/Dsports_HD/Dsports_HD_800.m3u8",
+         "image":"Discovery Sports"
       },
       {
          "name":"Dubai Racing",
-         "link":"http://dmisvthvll.cdn.mangomolo.com/events/smil:events.smil/chunklist.m3u8"
+         "link":"http://dmisvthvll.cdn.mangomolo.com/events/smil:events.smil/chunklist.m3u8",
+         "image":"Dubai Racing"
       },
       {
          "name":"Edge Sports",
-         "link":"https://imgedge.akamaized.net/amagi_hls_data_imgAAA2AA-edgesports/CDN/playlist.m3u8"
+         "link":"https://imgedge.akamaized.net/amagi_hls_data_imgAAA2AA-edgesports/CDN/playlist.m3u8",
+         "image":"Edge Sports"
       },
       {
          "name":"ESPN 2",
-         "link":"https://gma2.blab.email/espn2.m3u8"
+         "link":"https://gma2.blab.email/espn2.m3u8",
+         "image":"ESPN 2"
       },
       {
          "name":"Geo Super sports",
-         "link":"https://jk3lz82elw79-hls-live.5centscdn.com/GeoNews/0ce3266d4eb71ad50f7a90aee6d21dcd.sdp/playlist.m3u8"
+         "link":"https://jk3lz82elw79-hls-live.5centscdn.com/GeoNews/0ce3266d4eb71ad50f7a90aee6d21dcd.sdp/playlist.m3u8",
+         "image":"Geo Super sports"
       },
       {
          "name":"One Golf",
-         "link":"http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8"
+         "link":"http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8",
+         "image":"One Golf"
       },
       {
          "name":"Olympic Channel (HD)",
-         "link":"http://ott-live.olympicchannel.com/out/u/OC1_2.m3u8"
+         "link":"http://ott-live.olympicchannel.com/out/u/OC1_2.m3u8",
+         "image":"Olympic Channel (HD)"
       },
       {
          "name":"KSA Sports",
-         "link":"https://edge-1192-ch-gv.filmon.com/live/1781.high.stream/playlist.m3u8"
+         "link":"https://edge-1192-ch-gv.filmon.com/live/1781.high.stream/playlist.m3u8",
+         "image":"KSA Sports"
       },
       {
          "name":"PTV Sports",
-         "link":"http://95.211.211.168/live/ptvsports2002/playlist.m3u8"
+         "link":"http://95.211.211.168/live/ptvsports2002/playlist.m3u8",
+         "image":"PTV Sports"
       }
    ]
 }

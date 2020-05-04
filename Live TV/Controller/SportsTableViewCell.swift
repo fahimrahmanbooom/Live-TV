@@ -10,11 +10,18 @@ import UIKit
 
 final class SportsTableViewCell: UITableViewCell {
     
+    
+    @IBOutlet weak var customContentView: UIView!
+    
+    @IBOutlet weak var channelImageView: UIImageView!
+    
     @IBOutlet weak var channelNameLabel: UILabel!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
         
+        customContentView.layer.cornerRadius = 15
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

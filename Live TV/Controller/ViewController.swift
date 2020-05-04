@@ -12,6 +12,9 @@ import JGProgressHUD
 
 final class ViewController: UIViewController {
     
+    
+    @IBOutlet weak var allChannelsImage: UIImageView!
+    
     @IBOutlet weak var bdChButton: UIButton!
     @IBOutlet weak var inChButton: UIButton!
     @IBOutlet weak var otChButton: UIButton!
@@ -30,8 +33,8 @@ final class ViewController: UIViewController {
         hud.show(in: self.view)
         hud.position = .center
         
-        mainViewBannerTop.delegate = self
-        mainViewBannerBottom.delegate = self
+//        mainViewBannerTop.delegate = self
+//        mainViewBannerBottom.delegate = self
         
         prepareBannerAd()
         prepareInterstitialAd()
@@ -41,6 +44,7 @@ final class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         
         presentBannerAd()
+        hud.dismiss(afterDelay: 2, animated: true)
     }
     
     
@@ -76,12 +80,12 @@ extension ViewController {
     func prepareBannerAd() {
         
         // top banner
-        mainViewBannerTop.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        mainViewBannerTop.adUnitID = "ca-app-pub-8021061863868813/3192579596"
         mainViewBannerTop.rootViewController = self
         
         
         // bottom banner
-        mainViewBannerBottom.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        mainViewBannerBottom.adUnitID = "ca-app-pub-8021061863868813/1074710383"
         mainViewBannerBottom.rootViewController = self
         
     }
@@ -100,7 +104,7 @@ extension ViewController {
     // prepare interstitial function
     func prepareInterstitialAd() {
         
-        interstitial = GADInterstitial(adUnitID: "ca-app-pub-3940256099942544/4411468910")
+        interstitial = GADInterstitial(adUnitID: "ca-app-pub-8021061863868813/2196220369")
         let request = GADRequest()
         interstitial.load(request)
     }
@@ -108,7 +112,7 @@ extension ViewController {
     // ad loading function for interstitial ads
     func loadInterstitialAd() -> GADInterstitial {
         
-        interstitial = GADInterstitial(adUnitID: "ca-app-pub-3940256099942544/4411468910")
+        interstitial = GADInterstitial(adUnitID: "ca-app-pub-8021061863868813/2196220369")
         interstitial.load(GADRequest())
         return interstitial
     }
@@ -129,13 +133,12 @@ extension ViewController {
 
 // Gad extention for delegate methods
 
-extension ViewController: GADBannerViewDelegate {
-    
-    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
-        hud.dismiss()
-    }
-    
-}
+//extension ViewController: GADBannerViewDelegate {
+//
+//    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
+//        hud.dismiss()
+//    }
+//}
 
 
 // design extension
@@ -160,9 +163,11 @@ extension ViewController {
     
     func designUI() {
         
-        bdChButton.layer.cornerRadius = 15
-        inChButton.layer.cornerRadius = 15
-        otChButton.layer.cornerRadius = 15
+        allChannelsImage.layer.cornerRadius = 10
+        
+        bdChButton.layer.cornerRadius = 10
+        inChButton.layer.cornerRadius = 10
+        otChButton.layer.cornerRadius = 10
         
         bdChButton.clipsToBounds = true
         inChButton.clipsToBounds = true

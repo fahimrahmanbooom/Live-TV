@@ -9,18 +9,23 @@
 import UIKit
 
 struct Cartoon : Codable {
+    
     let name : String?
     let link : String?
+    let image: String?
 
     enum CodingKeys: String, CodingKey {
 
         case name = "name"
         case link = "link"
+        case image = "image"
     }
 
     init(from decoder: Decoder) throws {
+        
         let values = try decoder.container(keyedBy: CodingKeys.self)
         name = try values.decodeIfPresent(String.self, forKey: .name)
         link = try values.decodeIfPresent(String.self, forKey: .link)
+        image = try values.decodeIfPresent(String.self, forKey: .image)
     }
 }

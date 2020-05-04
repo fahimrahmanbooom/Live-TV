@@ -12,11 +12,13 @@
 // MainPage
 
 
-// AdIDInter: ca-app-pub-8021061863868813/3785141389
+// AdIDInter: ca-app-pub-8021061863868813/2196220369
 
-// AdIDBannerTop: ca-app-pub-8021061863868813/5375223528
+// AdIDBannerTop: ca-app-pub-8021061863868813/3192579596
 
-// AdIDBannerBottom: ca-app-pub-8021061863868813/5954448658
+// AdIDBannerBottom: ca-app-pub-8021061863868813/1074710383
+
+
 
 
 
@@ -24,9 +26,9 @@
 // EntertainmentPage
 
 
-// AdIDBannerTop: ca-app-pub-8021061863868813/1989322919
+// AdIDBannerTop: ca-app-pub-8021061863868813/4630812014
 
-// AdIDBannerBottom: ca-app-pub-8021061863868813/3110832894
+// AdIDBannerBottom: ca-app-pub-8021061863868813/8378485332
 
 
 
@@ -36,9 +38,9 @@
 
 // NewsPage
 
-// AdIDBannerTop: ca-app-pub-8021061863868813/8938068169
+// AdIDBannerTop: ca-app-pub-8021061863868813/3432252740
 
-// AdIDBannerBottom: ca-app-pub-8021061863868813/5768979349
+// AdIDBannerBottom: ca-app-pub-8021061863868813/8186913642
 
 
 
@@ -47,9 +49,9 @@
 
 // SportsPage
 
-// AdIDBannerTop: ca-app-pub-8021061863868813/4455897679
+// AdIDBannerTop: ca-app-pub-8021061863868813/7179926063
 
-// AdIDBannerBottom: ca-app-pub-8021061863868813/1829734337
+// AdIDBannerBottom: ca-app-pub-8021061863868813/5560750308
 
 
 
@@ -57,6 +59,6 @@
 
 // CartoonPage
 
-// AdIDBannerTop: ca-app-pub-8021061863868813/7624986495
+// AdIDBannerTop: ca-app-pub-8021061863868813/4247668630
 
-// AdIDBannerBottom: ca-app-pub-8021061863868813/6311904822
+// AdIDBannerBottom: ca-app-pub-8021061863868813/2934586967

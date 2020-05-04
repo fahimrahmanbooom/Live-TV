@@ -29,5 +29,4 @@ struct Base : Codable {
         sports = try values.decodeIfPresent([Sports].self, forKey: .sports)
         cartoon = try values.decodeIfPresent([Cartoon].self, forKey: .cartoon)
     }
-
 }

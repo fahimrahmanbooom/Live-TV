@@ -18,6 +18,7 @@ final class EntertainmentViewController: UIViewController {
     
     @IBOutlet weak var enterTableView: UITableView!
     
+    
     private let hud = JGProgressHUD(style: .dark)
     
     private let avPlayer = AVPlayerViewController()
@@ -31,13 +32,13 @@ final class EntertainmentViewController: UIViewController {
         hud.show(in: self.view)
         hud.position = .center
         
-        enterViewBannerTop.delegate = self
-        enterViewBannerBottom.delegate = self
+//        enterViewBannerTop.delegate = self
+//        enterViewBannerBottom.delegate = self
         
         enterTableView.delegate = self
         enterTableView.dataSource = self
         
-        enterTableView.backgroundColor = .white
+        enterTableView.backgroundColor = UIColor(red: 41/255, green: 41/255, blue: 43/255, alpha: 1)
         
         prepareBannerAd()
         gettingDataFromResource(resourceName: Country.shared.countryName)
@@ -45,6 +46,7 @@ final class EntertainmentViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         presentBannerAd()
+        hud.dismiss(afterDelay: 2, animated: true)
     }
     
     //getting data from resource
@@ -67,12 +69,13 @@ extension EntertainmentViewController: UITableViewDelegate, UITableViewDataSourc
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return response.entertainment!.count
+        return response.entertainment?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: EnterTableViewCell = enterTableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! EnterTableViewCell
         
+        cell.channelImageView.image = UIImage(named: (response.entertainment?[indexPath.row].image)!)
         cell.channelNameLabel.text = response.entertainment?[indexPath.row].name
         
         return cell
@@ -89,12 +92,6 @@ extension EntertainmentViewController: UITableViewDelegate, UITableViewDataSourc
             video.play()
         })
     }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        
-        return 90
-    }
-    
 }
 
 
@@ -110,12 +107,12 @@ extension EntertainmentViewController {
     func prepareBannerAd() {
         
         // top banner
-        enterViewBannerTop.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        enterViewBannerTop.adUnitID = "ca-app-pub-8021061863868813/4630812014"
         enterViewBannerTop.rootViewController = self
         
         
         // bottom banner
-        enterViewBannerBottom.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        enterViewBannerBottom.adUnitID = "ca-app-pub-8021061863868813/8378485332"
         enterViewBannerBottom.rootViewController = self
         
     }
@@ -140,10 +137,10 @@ extension EntertainmentViewController {
 
 // Gad extention for delegate methods
 
-extension EntertainmentViewController: GADBannerViewDelegate {
-    
-    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
-        hud.dismiss()
-    }
-    
-}
+//extension EntertainmentViewController: GADBannerViewDelegate {
+//
+//    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
+//        hud.dismiss()
+//    }
+//
+//}
