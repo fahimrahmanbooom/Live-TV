@@ -10,8 +10,9 @@ import UIKit
 
 class NavigationViewController: UINavigationController {
     
-    override var prefersStatusBarHidden: Bool {
-        return true
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        .lightContent
     }
     
     override func viewDidLoad() {

@@ -10,11 +10,17 @@ import UIKit
 
 final class NewsTableViewCell: UITableViewCell {
     
+    @IBOutlet weak var customContentView: UIView!
+    
     @IBOutlet weak var channelNameLabel: UILabel!
+    
+    @IBOutlet weak var channelImageView: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
+        customContentView.layer.cornerRadius = 15
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

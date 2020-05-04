@@ -33,13 +33,13 @@ final class SportsViewController: UIViewController {
         hud.show(in: self.view)
         hud.position = .center
         
-        sportsViewBannerTop.delegate = self
-        sportsViewBannerBottom.delegate = self
+//        sportsViewBannerTop.delegate = self
+//        sportsViewBannerBottom.delegate = self
         
         sportsTableView.delegate = self
         sportsTableView.dataSource = self
         
-        sportsTableView.backgroundColor = .white
+        sportsTableView.backgroundColor = UIColor(red: 41/255, green: 41/255, blue: 43/255, alpha: 1)
         
         prepareBannerAd()
         gettingDataFromResource(resourceName: Country.shared.countryName)
@@ -47,6 +47,7 @@ final class SportsViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         presentBannerAd()
+        hud.dismiss(afterDelay: 2, animated: true)
     }
     
     //getting data from resource
@@ -69,12 +70,13 @@ extension SportsViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return response.sports!.count
+        return response.sports?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: SportsTableViewCell = sportsTableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! SportsTableViewCell
         
+        cell.channelImageView.image = UIImage(named: (response.sports?[indexPath.row].image)!)
         cell.channelNameLabel?.text = response.sports?[indexPath.row].name
         
         return cell
@@ -91,12 +93,6 @@ extension SportsViewController: UITableViewDelegate, UITableViewDataSource {
             video.play()
         })
     }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        
-        return 90
-    }
-    
 }
 
 
@@ -112,12 +108,12 @@ extension SportsViewController {
     func prepareBannerAd() {
         
         // top banner
-        sportsViewBannerTop.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        sportsViewBannerTop.adUnitID = "ca-app-pub-8021061863868813/7179926063"
         sportsViewBannerTop.rootViewController = self
         
         
         // bottom banner
-        sportsViewBannerBottom.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        sportsViewBannerBottom.adUnitID = "ca-app-pub-8021061863868813/5560750308"
         sportsViewBannerBottom.rootViewController = self
         
     }
@@ -142,10 +138,10 @@ extension SportsViewController {
 
 // Gad extention for delegate methods
 
-extension SportsViewController: GADBannerViewDelegate {
-    
-    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
-        hud.dismiss()
-    }
-    
-}
+//extension SportsViewController: GADBannerViewDelegate {
+//
+//    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
+//        hud.dismiss()
+//    }
+//
+//}

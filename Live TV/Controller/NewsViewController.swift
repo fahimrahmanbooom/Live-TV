@@ -31,13 +31,13 @@ final class NewsViewController: UIViewController {
         hud.show(in: self.view)
         hud.position = .center
         
-        newsViewBannerTop.delegate = self
-        newsViewBannerBottom.delegate = self
+//        newsViewBannerTop.delegate = self
+//        newsViewBannerBottom.delegate = self
         
         newsTableView.delegate = self
         newsTableView.dataSource = self
         
-        newsTableView.backgroundColor = .white
+        newsTableView.backgroundColor = UIColor(red: 41/255, green: 41/255, blue: 43/255, alpha: 1)
         
         prepareBannerAd()
         gettingDataFromResource(resourceName: Country.shared.countryName)
@@ -45,6 +45,7 @@ final class NewsViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         presentBannerAd()
+        hud.dismiss(afterDelay: 2, animated: true)
     }
     
     //getting data from resource
@@ -67,12 +68,13 @@ extension NewsViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return response.news!.count
+        return response.news?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: NewsTableViewCell = newsTableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! NewsTableViewCell
         
+        cell.channelImageView.image = UIImage(named: (response.news?[indexPath.row].image)!)
         cell.channelNameLabel.text = response.news?[indexPath.row].name
         
         return cell
@@ -89,15 +91,7 @@ extension NewsViewController: UITableViewDelegate, UITableViewDataSource {
             video.play()
         })
     }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        
-        return 90
-    }
-    
 }
-
-
 
 
 
@@ -110,12 +104,12 @@ extension NewsViewController {
     func prepareBannerAd() {
         
         // top banner
-        newsViewBannerTop.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        newsViewBannerTop.adUnitID = "ca-app-pub-8021061863868813/3432252740"
         newsViewBannerTop.rootViewController = self
         
         
         // bottom banner
-        newsViewBannerBottom.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        newsViewBannerBottom.adUnitID = "ca-app-pub-8021061863868813/8186913642"
         newsViewBannerBottom.rootViewController = self
         
     }
@@ -140,10 +134,10 @@ extension NewsViewController {
 
 // Gad extention for delegate methods
 
-extension NewsViewController: GADBannerViewDelegate {
-    
-    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
-        hud.dismiss()
-    }
-    
-}
+//extension NewsViewController: GADBannerViewDelegate {
+//
+//    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
+//        hud.dismiss()
+//    }
+//
+//}

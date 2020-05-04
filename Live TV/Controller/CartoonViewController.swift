@@ -33,13 +33,13 @@ final class CartoonViewController: UIViewController {
         hud.show(in: self.view)
         hud.position = .center
         
-        cartoonViewBannerTop.delegate = self
-        cartoonViewBannerBottom.delegate = self
+//        cartoonViewBannerTop.delegate = self
+//        cartoonViewBannerBottom.delegate = self
         
         cartoonTableView.delegate = self
         cartoonTableView.dataSource = self
         
-        cartoonTableView.backgroundColor = .white
+        cartoonTableView.backgroundColor = UIColor(red: 41/255, green: 41/255, blue: 43/255, alpha: 1)
         
         prepareBannerAd()
         gettingDataFromResource(resourceName: Country.shared.countryName)
@@ -47,6 +47,7 @@ final class CartoonViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         presentBannerAd()
+        hud.dismiss(afterDelay: 2, animated: true)
     }
     
     //getting data from resource
@@ -69,12 +70,13 @@ extension CartoonViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return response.cartoon!.count
+        return response.cartoon?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: CartoonTableViewCell = cartoonTableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CartoonTableViewCell
         
+        cell.channelImageView.image = UIImage(named: (response.cartoon?[indexPath.row].image)!)
         cell.channelNameLabel?.text = response.cartoon?[indexPath.row].name
         
         return cell
@@ -91,12 +93,6 @@ extension CartoonViewController: UITableViewDelegate, UITableViewDataSource {
             video.play()
         })
     }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        
-        return 90
-    }
-    
 }
 
 
@@ -112,12 +108,12 @@ extension CartoonViewController {
     func prepareBannerAd() {
         
         // top banner
-        cartoonViewBannerTop.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        cartoonViewBannerTop.adUnitID = "ca-app-pub-8021061863868813/4247668630"
         cartoonViewBannerTop.rootViewController = self
         
         
         // bottom banner
-        cartoonViewBannerBottom.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        cartoonViewBannerBottom.adUnitID = "ca-app-pub-8021061863868813/2934586967"
         cartoonViewBannerBottom.rootViewController = self
         
     }
@@ -142,10 +138,10 @@ extension CartoonViewController {
 
 // Gad extention for delegate methods
 
-extension CartoonViewController: GADBannerViewDelegate {
-    
-    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
-        hud.dismiss()
-    }
-    
-}
+//extension CartoonViewController: GADBannerViewDelegate {
+//
+//    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
+//        hud.dismiss()
+//    }
+//
+//}

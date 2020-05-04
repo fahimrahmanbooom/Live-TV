@@ -2,145 +2,179 @@
    "entertainment":[
       {
          "name":"Asian TV",
-         "link":"https://itpolly.iptv.digijadoo.net/live/asian_tv/chunks.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/asian_tv/chunks.m3u8",
+         "image":"Asian TV"
       },
       {
          "name":"ATN Bangla",
-         "link":"https://itpolly.iptv.digijadoo.net/live/atn_bangla/chunks.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/atn_bangla/chunks.m3u8",
+         "image":"ATN Bangla"
       },
       {
          "name":"Banglavision TV",
-         "link":"https://itpolly.iptv.digijadoo.net/live/bangla_vision/chunks.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/bangla_vision/chunks.m3u8",
+         "image":"Banglavision TV"
       },
       {
          "name":"Boishakhi TV",
-         "link":"https://itpolly.iptv.digijadoo.net/live/boishakhi_tv/chunks.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/boishakhi_tv/chunks.m3u8",
+         "image":"Boishakhi TV"
       },
       {
          "name":"BTV World",
-         "link":"https://itpolly.iptv.digijadoo.net/live/btv_world/chunks.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/btv_world/chunks.m3u8",
+         "image":"BTV World"
       },
       {
          "name":"Channel 9",
-         "link":"https://itpolly.iptv.digijadoo.net/live/channel_9/chunks.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/channel_9/chunks.m3u8",
+         "image":"Channel 9"
       },
       {
          "name":"Channel i",
-         "link":"https://itpolly.iptv.digijadoo.net/live/channel_i/chunks.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/channel_i/chunks.m3u8",
+         "image":"Channel i"
       },
       {
          "name":"Deepto TV",
-         "link":"https://itpolly.iptv.digijadoo.net/live/deepto_tv/chunks.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/deepto_tv/chunks.m3u8",
+         "image":"Deepto TV"
       },
       {
          "name":"Desh TV",
-         "link":"https://itpolly.iptv.digijadoo.net/live/desh_tv/chunks.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/desh_tv/chunks.m3u8",
+         "image":"Desh TV"
       },
       {
          "name":"Ekushey TV",
-         "link":"https://itpolly.iptv.digijadoo.net/live/ekushey_tv/chunks.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/ekushey_tv/chunks.m3u8",
+         "image":"Ekushey TV"
       },
       {
          "name":"Gazi TV",
-         "link":"http://itpolly.iptv.digijadoo.net/live/gazi_tv/chunks.m3u8"
+         "link":"http://itpolly.iptv.digijadoo.net/live/gazi_tv/chunks.m3u8",
+         "image":"Gazi TV"
       },
       {
          "name":"Maasranga",
-         "link":"https://itpolly.iptv.digijadoo.net/live/maasranga/chunks.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/maasranga/chunks.m3u8",
+         "image":"Maasranga"
       },
       {
          "name":"NTV",
-         "link":"https://itpolly.iptv.digijadoo.net/live/ntv/chunks.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/ntv/chunks.m3u8",
+         "image":"NTV"
       },
       {
          "name":"Nagorik TV",
-         "link":"https://itpolly.iptv.digijadoo.net/live/nagorik_tv/chunks.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/nagorik_tv/chunks.m3u8",
+         "image":"Nagorik TV"
       },
       {
          "name":"RTV",
-         "link":"https://itpolly.iptv.digijadoo.net/live/rtv/playlist.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/rtv/playlist.m3u8",
+         "image":"RTV"
       },
       {
          "name":"SA TV",
-         "link":"https://itpolly.iptv.digijadoo.net/live/sa_tv/playlist.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/sa_tv/playlist.m3u8",
+         "image":"SA TV"
       },
       {
          "name":"Peace TV Bangla",
-         "link":"https://api.visionip.tv/live/ASHTTP/peacetv-peacetv-peacetv-bangla-hsslive-25f-16x9-MB/playlist.m3u8"
+         "link":"https://api.visionip.tv/live/ASHTTP/peacetv-peacetv-peacetv-bangla-hsslive-25f-16x9-MB/playlist.m3u8",
+         "image":"Peace TV Bangla"
       },
       {
          "name":"Mohona TV",
-         "link":"http://telelivetv.webredirect.org:8081/globeworld2020/mohona/chunks.m3u8"
+         "link":"http://telelivetv.webredirect.org:8081/globeworld2020/mohona/chunks.m3u8",
+         "image":"Mohona TV"
       },
       {
          "name":"Gaan Bangla",
-         "link":"https://itpolly.iptv.digijadoo.net/live/gaan_bangla/chunks.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/gaan_bangla/chunks.m3u8",
+         "image":"Gaan Bangla"
       },
       {
          "name":"ATN Islamic TV",
-         "link":"http://appcdn.jagobd.com:1934/c5V6mmMyX7RpbEU9Mi8xNy8yMDEOGIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnislamictv.stream/playlist.m3u8"
+         "link":"http://appcdn.jagobd.com:1934/c5V6mmMyX7RpbEU9Mi8xNy8yMDEOGIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnislamictv.stream/playlist.m3u8",
+         "image":"ATN Islamic TV"
       },
       {
          "name":"Madani TV Bangla",
-         "link":"https://madnitv.vdn.dstreamone.net/madnitvbangla/madnibanglaabr/playlist.m3u8"
+         "link":"https://madnitv.vdn.dstreamone.net/madnitvbangla/madnibanglaabr/playlist.m3u8",
+         "image":"Madani TV Bangla"
       },
       {
          "name":"NTV (UK Time)",
-         "link":"https://a.jsrdn.com/r-373576a1/publish/22680_3BR3zocwi9/index.m3u8"
+         "link":"https://a.jsrdn.com/r-373576a1/publish/22680_3BR3zocwi9/index.m3u8",
+         "image":"NTV (UK Time)"
       },
       {
          "name":"NTV (US Pacific Time)",
-         "link":"https://a.jsrdn.com/broadcast/22680_3BR3zocwi9/-0800/c.m3u8"
+         "link":"https://a.jsrdn.com/broadcast/22680_3BR3zocwi9/-0800/c.m3u8",
+         "image":"NTV (US Pacific Time)"
       }
    ],
    "news":[
       {
          "name":"ATN News",
-         "link":"https://itpolly.iptv.digijadoo.net/live/atn_news/chunks.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/atn_news/chunks.m3u8",
+         "image":"ATN News"
       },
       {
          "name":"Channel 24",
-         "link":"http://tvserver.roarzone.info:8082/21/index.m3u8"
+         "link":"http://tvserver.roarzone.info:8082/21/index.m3u8",
+         "image":"Channel 24"
       },
       {
          "name":"DBC News",
-         "link":"https://itpolly.iptv.digijadoo.net/live/dbc_news/chunks.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/dbc_news/chunks.m3u8",
+         "image":"DBC News"
       },
       {
          "name":"Ekattor TV",
-         "link":"https://itpolly.iptv.digijadoo.net/live/ekattor_tv/chunks.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/ekattor_tv/chunks.m3u8",
+         "image":"Ekattor TV"
       },
       {
          "name":"Independent TV",
-         "link":"https://itpolly.iptv.digijadoo.net/live/independent_tv/chunks.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/independent_tv/chunks.m3u8",
+         "image":"Independent TV"
       },
       {
          "name":"Jamuna TV HD 2",
-         "link":"http://tvserver.roarzone.info:8082/30/index.m3u8"
+         "link":"http://tvserver.roarzone.info:8082/30/index.m3u8",
+         "image":"Jamuna TV HD 2"
       }
    ],
    "sports":[
       {
          "name":"Gazi TV",
-         "link":"https://itpolly.iptv.digijadoo.net/live/gazi_tv/chunks.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/gazi_tv/chunks.m3u8",
+         "image":"Gazi TV"
       },
       {
          "name":"Maasranga",
-         "link":"https://itpolly.iptv.digijadoo.net/live/maasranga/chunks.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/maasranga/chunks.m3u8",
+         "image":"Maasranga"
       }
    ],
    "cartoon":[
       {
          "name":"Duronto TV",
-         "link":"https://itpolly.iptv.digijadoo.net/live/duronto_tv/chunks.m3u8"
+         "link":"https://itpolly.iptv.digijadoo.net/live/duronto_tv/chunks.m3u8",
+         "image":"Duronto TV"
       },
       {
          "name":"Nick Bangla",
-         "link":"https://bracnet.iptv.jadoodigital.com/live/nickelodeon/chunks.m3u8"
+         "link":"https://bracnet.iptv.jadoodigital.com/live/nickelodeon/chunks.m3u8",
+         "image":"Nick Bangla"
       },
       {
          "name":"Nick Sonic Bangla",
-         "link":"https://bracnet.iptv.jadoodigital.com/live/sonic/chunks.m3u8"
+         "link":"https://bracnet.iptv.jadoodigital.com/live/sonic/chunks.m3u8",
+         "image":"Nick Sonic Bangla"
       }
    ]
 }
