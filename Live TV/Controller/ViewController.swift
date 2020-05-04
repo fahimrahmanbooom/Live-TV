@@ -12,7 +12,6 @@ import JGProgressHUD
 
 final class ViewController: UIViewController {
     
-    
     @IBOutlet weak var allChannelsImage: UIImageView!
     
     @IBOutlet weak var bdChButton: UIButton!
